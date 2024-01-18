@@ -1,0 +1,28 @@
+.orbit {
+  animation: spin 10s linear infinite;
+  animation-delay: -10s;
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-100%);
+  }
+
+  100% {
+    transform: translate(100%);
+  }
+}
+.orbit2 {
+  animation: spin2 10s linear infinite;
+  animation-delay: -5s;
+}
+
+@keyframes spin2 {
+  0% {
+    transform: translate(-100%);
+  }
+
+  100% {
+    transform: translate(100%);
+  }
+}
